@@ -16,6 +16,7 @@
       </nav>
     </div>
   </header>
+  <RouterView />
   <footer>
     <div id="Footer"><Footer />
     </div>
