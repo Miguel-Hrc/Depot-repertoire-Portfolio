@@ -10,7 +10,7 @@
     </div>
     <div>
       <nav>
-        <a href="#">Présentation</a>
+        <a href="#Présentation">Présentation</a>
         <a href="#">Création</a>
         <a href="#">Contact</a>
       </nav>
@@ -72,7 +72,7 @@ nav a:first-of-type {
  bottom: 0;
  left: 0;
  right: 0;
- padding-top: 10%;
+ padding-top: 2%;
  width: 100vw;
 }
 
