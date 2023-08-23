@@ -11,7 +11,7 @@
     <div>
       <nav>
         <a href="#Présentation">Présentation</a>
-        <a href="#">Création</a>
+        <a href="#Création">Création</a>
         <a href="#">Contact</a>
       </nav>
     </div>
@@ -36,6 +36,7 @@ header {
   display: flex;
   justify-content: center;
   position: fixed;
+  z-index: 5;
 }
 
 .logo {
