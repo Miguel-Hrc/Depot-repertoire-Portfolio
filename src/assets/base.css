@@ -1,6 +1,7 @@
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-variation: #C5C5C5;
+  --vt-c-white-shadow: hsla(0, 0%, 77%, 0.614);
 
   --vt-c-black: #181818;
 
@@ -24,7 +25,7 @@
   --vt-c-shadow-light-1: rgba(30,78,81,1);
   --vt-c-shadow-light-2: #333333d3;
   --vt-c-shadow-light-3: var(--vt-c-white);
-  --vt-c-shadow-dark-1: var(--vt-c-white-variation);
+  --vt-c-shadow-dark-1: var(--vt-c-white-shadow);
   --vt-c-shadow-dark-2: var(--vt-c-black);
 
 }
