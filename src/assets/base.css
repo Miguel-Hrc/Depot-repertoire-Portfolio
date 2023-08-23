@@ -1,0 +1,93 @@
+:root {
+  --vt-c-white: #ffffff;
+  --vt-c-white-variation: #C5C5C5;
+
+  --vt-c-black: #181818;
+
+
+  --vt-c-divider-light-1: #8C4D11;
+  --vt-c-divider-light-2: #333333d3;
+  --vt-c-divider-dark-1: var(--vt-c-black);
+
+  --vt-c-text-light-1: var(--vt-c-white);
+  --vt-c-text-light-2: rgba(30,78,81,1);
+  --vt-c-text-light-3: var(--vt-c-black);
+  --vt-c-text-dark-1: var(--vt-c-white-variation);
+  --vt-c-text-dark-2: #067000;
+
+  --vt-c-div-light-1: #E6A76B;
+  --vt-c-div-light-2: #FCAD6F;
+  --vt-c-div-dark-1: var(--vt-c-black);
+  --vt-c-div-dark-2: #4A2C14;
+
+  
+  --vt-c-shadow-light-1: rgba(30,78,81,1);
+  --vt-c-shadow-light-2: #333333d3;
+  --vt-c-shadow-light-3: var(--vt-c-white);
+  --vt-c-shadow-dark-1: var(--vt-c-white-variation);
+  --vt-c-shadow-dark-2: var(--vt-c-black);
+
+}
+
+:root {
+  --color-background: var(--vt-c-black);
+  --color-background-variation: var(--vt-c-white);
+
+  --color-border: var(--vt-c-divider-light-1);
+  --color-border-variation: var(--vt-c-divider-light-2);
+
+  --color-heading: var(--vt-c-text-light-3);
+  --color-text: var(--vt-c-text-light-2);
+  --color-text-variation: var(--vt-c-text-light-1);
+
+  --color-div: var(--vt-c-div-light-1);
+  --color-div-variation: var(--vt-c-div-light-2);
+
+  --color-relief: var(--vt-c-shadow-light-1);
+  --color-relief-variation: var(--vt-c-shadow-light-3);
+  --color-shadow: var(--vt-c-shadow-light-2);
+  --color-shadow-variation: var(--vt-c-shadow-light-2);
+
+  --color-button: var(--vt-c-white);
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-variation: var(--vt-c-black);
+
+    --color-border: var(--vt-c-divider-dark-1);
+    --color-border-variation: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-2);
+    --color-text: var(--vt-c-text-dark-1);
+    --color-text-variation: var(--vt-c-text-dark-1);
+
+    --color-div: var(--vt-c-div-dark-1);
+    --color-div-variation: var(--vt-c-div-dark-2);
+
+    --color-relief: var(--vt-c-shadow-dark-1);
+    --color-relief-variation: var(--vt-c-shadow-dark-1);
+    --color-shadow: var(--vt-c-shadow-dark-1);
+    --color-shadow-variation: var(--vt-c-shadow-dark-2);
+
+    --color-button: var(--vt-c-black);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-heading);
+  background: var(--color-background);
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
