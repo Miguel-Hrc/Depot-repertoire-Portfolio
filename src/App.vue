@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <div>
-      h1 class="logo" title="Logo" > Mig's Portfolio</h1>
+      <h1 class="logo" title="Logo"> Mig's Portfolio</h1>
     </div>
     <div>
       <nav>
