@@ -23,7 +23,7 @@ header {
   line-height: 1.5;
   max-height: 100vh;
   padding: 1%;
-	width: 100vw;
+  width: 100vw;
   background-color: var(--color-div);
   border-bottom: solid 1px var(--color-border);
   box-shadow: 0 0 10px var(--color-shadow);
@@ -33,11 +33,11 @@ header {
 }
 
 .logo {
-	font-size: 5vh;
-	font-weight: bold;
-	font-family: 'Dancing Script', cursive;
-	text-align: center;
-  margin-right: 2%;
+ font-size: 5vh;
+ font-weight: bold;
+ font-family: 'Dancing Script', cursive;
+ text-align: center;
+ margin-right: 2%;
 }
 
 nav {
