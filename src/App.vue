@@ -1,5 +1,6 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+  import { RouterLink, RouterView } from 'vue-router'
+  import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -15,15 +16,19 @@ import { RouterLink, RouterView } from 'vue-router'
       </nav>
     </div>
   </header>
+  <footer>
+    <div id="Footer"><Footer />
+    </div>
+  </footer>
 </template>
 
 <style scoped>
-  
+
 header {
   line-height: 1.5;
   max-height: 100vh;
   padding: 1%;
-  width: 100vw;
+	width: 100vw;
   background-color: var(--color-div);
   border-bottom: solid 1px var(--color-border);
   box-shadow: 0 0 10px var(--color-shadow);
@@ -33,11 +38,11 @@ header {
 }
 
 .logo {
- font-size: 5vh;
- font-weight: bold;
- font-family: 'Dancing Script', cursive;
- text-align: center;
- margin-right: 2%;
+	font-size: 5vh;
+	font-weight: bold;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+  margin-right: 2%;
 }
 
 nav {
@@ -61,9 +66,25 @@ nav a:first-of-type {
   text-decoration: underline;
 }
 
+#Footer {
+	background-color: var(--color-background-variation);
+	bottom: 0;
+	left: 0;
+	right: 0;
+  padding-top: 10%;
+  width: 100vw;
+}
+
 @media (prefers-color-scheme: dark) {
+
+    #Footer {
+     color: var(--color-text-variation);
+    }
+
     nav a {
       color: var(--color-text-variation);
     }
 }
+
 </style>
+
