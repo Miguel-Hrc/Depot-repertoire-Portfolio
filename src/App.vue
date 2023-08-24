@@ -19,6 +19,11 @@
   <RouterView />
   <footer>
     <div id="Footer"><Footer />
+      <nav>
+              <RouterLink to="/Page_inutile">&#60; Page inutile</RouterLink> 
+              <RouterLink to="/Home">Home</RouterLink>  
+              <RouterLink to="/Page_inutile">Page inutile &#62;</RouterLink>   
+      </nav>
     </div>
   </footer>
 </template>
@@ -52,6 +57,14 @@ nav {
   font-size: 2vh;
   text-align: center;
   margin-top: 3vh;
+}
+
+nav a.router-link-exact-active {
+  text-decoration: underline;
+}
+
+nav a.router-link-exact-active:hover {
+  background-color: transparent;
 }
 
 nav a {
