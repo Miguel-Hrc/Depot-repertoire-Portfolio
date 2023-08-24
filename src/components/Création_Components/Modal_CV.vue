@@ -85,7 +85,7 @@ export default {
 }
 
 #modalTitle {
-  font-family: Montserrat, sans-serif;
+   font-family: Montserrat, sans-serif;
    font-size: 3vh;
 }
 
@@ -95,13 +95,13 @@ export default {
 }
 
 .img_Cv {
-	  height: 30vh;
+    height: 30vh;
     margin-left: 30vw;
     cursor: pointer;
 }
 
  .active {
-	  height: auto;
+    height: auto;
     width: 90vw;
     position: fixed;
     top: 13vh;
