@@ -16,8 +16,9 @@
 
 
 <script>
+
 export default {
-  
+
   name: "Modal_CV",
   props: ["revele", "toggleModale"],
 
@@ -32,10 +33,12 @@ export default {
       },
     },
 };
+
 </script>
 
 
 <style scoped>
+
 .bloc-modale {
   position: fixed;
   top: 0;
@@ -97,7 +100,7 @@ export default {
     cursor: pointer;
 }
 
- .active{
+ .active {
 	  height: auto;
     width: 90vw;
     position: fixed;
@@ -114,71 +117,80 @@ export default {
 }
 
 @media (prefers-color-scheme: dark) {
+
   .modale {
-  background: var(--color-div);
-}
+    background: var(--color-div);
+  }
+
 }
 
-@media (min-width: 500px){
+@media (min-width: 500px) {
 
- .active{
+  .active {
     width: 80vw;
     margin: 6%;
-}
+  }
+
 }
 
-@media (min-width: 600px){
+@media (min-width: 600px) {
 
- .active{
+  .active {
     width: 65vw;
     top: 13vh;
-}
+  }
+
 }
 
-@media (min-width: 700px){
+@media (min-width: 700px) {
 
- .active{
+  .active {
     width: 55vw;
-}
+  }
+
 }
 
-@media (min-width: 800px){
+@media (min-width: 800px) {
 
- .active{
+  .active {
     width: 45vw;
+  }
+
 }
-}
 
 
-@media (min-width: 1000px){
+@media (min-width: 1000px) {
 
- .active{
+ .active {
     width: 40vw;
-}
+  } 
+
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
 
- .active{
+  .active {
     width: 30vw;
-}
+  }
+
 }
 
-@media (min-width: 1600px){
+@media (min-width: 1600px) {
 
- .active{
+  .active {
     width: 30vw;
     margin: 4%;
-}
+  }
+
 }
 
-@media (min-width: 2000px){
+@media (min-width: 2000px) {
 
- .active{
+  .active {
     width: 25vw;
     margin: 4%;
+  }
 
-}
 }
 
 </style>
