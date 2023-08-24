@@ -6,7 +6,7 @@
 <template>
   <header>
     <div>
-      <h1 class="logo" title="Logo"> Mig's Portfolio</h1>
+      <a href="#Présentation"><h1 class="logo" title="Logo"> Mig's Portfolio</h1></a>
     </div>
     <div>
       <nav>
