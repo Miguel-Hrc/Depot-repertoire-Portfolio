@@ -9,7 +9,7 @@
                                                Technologie utilisés : VS code - Git Hub <br>
                                                Lien : <a href="https://github.com/Miguel-Hrc/Depot-repertoire-exercice">https://github.com/Miguel-Hrc/Depot-repertoire-exercice </a> <br>
                                                Description : Curriculum Vitæ codé avec du HTML et du CSS avec quelques animations, c'est une reproduction d'un cv réalisé par un de mes professeurs</p>                 
-                            <img src="../assets/img/imgCV_Zoom.jpg" class="img_Cv" :class="{'active':isActive}" @click="toggleClassActive" alt="Image du Cv" title="Cv">
+                            <img src="../../assets/img/imgCV_Zoom.jpg" class="img_Cv" :class="{'active':isActive}" @click="toggleClassActive" alt="Image du Cv" title="Cv">
     </div>
   </div>
 </template>
