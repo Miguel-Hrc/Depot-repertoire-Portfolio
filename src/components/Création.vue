@@ -1,9 +1,9 @@
-
 <template>
   <div class="Création_Bloc">   
     <h1 class="Création_Bloc-Title"> &#60;&#61; Créations &#61;&#62;</h1>                     
     <div>
-      <button class="modal-btn">Curriculum Vitæ</button>
+      <modale :revele="revele" :toggleModale="toggleModale"></modale>
+      <button v-on:click="toggleModale" class="modal-btn">Curriculum Vitæ</button>
     </div>
     <img src="../assets/img/imgCV.jpg" class="Création_img" alt="Image du Cv" title="Cv">
     <div>
@@ -14,6 +14,29 @@
 </template>
 
 <script>
+
+import Modal_CV from "../components/Création_Components/Modal_CV.vue";
+
+export default {
+
+  name: "Contenu",
+
+  data() {
+    return {
+      revele: false,
+    };
+  },
+  components: {
+    modale: Modal_CV ,
+    },
+  methods: {
+    toggleModale: function() {
+      this.revele = !this.revele
+    },
+  },
+
+};
+
 </script>
 
 <style scoped>
@@ -21,7 +44,7 @@
 .Création_Bloc {
 	display: flex;
 	flex-direction: column;
-  justify-content: flex-start;
+        justify-content: flex-start;
 	position: relative;
 	width: 100vw;
 	z-index: 1;
@@ -30,9 +53,9 @@
 
 .Création_Bloc-Title {
 	font-family: 'Roboto Slab', serif;
-  top: 39%;
-  left: 32%;
-  display: block;
+        top: 39%;
+        left: 32%;
+        display: block;
 	font-size: 3vh;
 	position: absolute;
 	z-index: 2;
