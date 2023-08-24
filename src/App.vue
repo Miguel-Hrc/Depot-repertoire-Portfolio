@@ -12,7 +12,7 @@
       <nav>
         <a href="#Présentation">Présentation</a>
         <a href="#Création">Création</a>
-        <a href="#">Contact</a>
+        <a href="#Contact">Contact</a>
       </nav>
     </div>
   </header>
