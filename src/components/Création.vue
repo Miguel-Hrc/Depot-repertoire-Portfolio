@@ -1,3 +1,4 @@
+
 <template>
   <div class="Création_Bloc">   
     <h1 class="Création_Bloc-Title"> &#60;&#61; Créations &#61;&#62;</h1>                     
@@ -7,7 +8,8 @@
     </div>
     <img src="../assets/img/imgCV.jpg" class="Création_img" alt="Image du Cv" title="Cv">
     <div>
-      <button class="modal-btn2">Dynamisme d'un espace commentaire</button>
+      <modale2 :revele="revele2" :toggleModale="toggleModale2"></modale2>
+      <button v-on:click="toggleModale2" class="modal-btn2">Dynamisme d'un espace commentaire</button>
     </div>
     <img src="../assets/img/imgDynamismeJs.jpg" class="Création_img2" alt="Image d'un espace commentaire" title="Espace commentaire">
   </div>
@@ -16,6 +18,7 @@
 <script>
 
 import Modal_CV from "../components/Création_Components/Modal_CV.vue";
+import Modal_DJS from "../components/Création_Components/Modal_DJS.vue";
 
 export default {
 
@@ -24,14 +27,19 @@ export default {
   data() {
     return {
       revele: false,
+      revele2: false,
     };
   },
   components: {
-    modale: Modal_CV ,
+    modale: Modal_CV,
+    modale2: Modal_DJS
     },
   methods: {
     toggleModale: function() {
       this.revele = !this.revele
+    },
+    toggleModale2: function() {
+      this.revele2 = !this.revele2  
     },
   },
 
