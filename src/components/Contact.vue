@@ -134,9 +134,10 @@ textarea {
   cursor: pointer;
   color : black;
   border-radius: 7px;
-  border: 3px solid var(--color-border-variation)+;
+  border: 3px solid var(--color-border-variation);
   width : 20vw;
 }
+	
 @media (prefers-color-scheme: dark) {
     .form {
      color: var(--color-text-variation);
