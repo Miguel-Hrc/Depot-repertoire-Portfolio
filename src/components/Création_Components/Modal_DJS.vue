@@ -11,8 +11,8 @@
                                                 Description : De base un code html d'un formulaire, c'est le rendu d'un exercice où j'ai été en charge de m'occuper de la partie Javascript du projet afin de récupérer <br>
                                                 les valeurs du formulaire pour en faire des commentaires avec des styles prédéfinis, à les ajouter la liste de commentaires déjà présents puis d'effacer les champs de formulaire</p>
                             <div class="imgDynamisme_Bloc">
-                              <img src="../assets/img/imgDynamismeJs_ZoomComplément.jpg" class="imgDynamisme_Exemple" :class="{'active':isActive}" @click="toggleClassActive" alt="Image d'un espace commentaire après avoir remplis les champs de formulaire" title="Espace commentaire">
-                              <img src="../assets/img/imgDynamismeJs_ZoomComplément2.jpg" class="imgDynamisme_Example2" :class="{'active':isActive2}" @click="toggleClassActive2" alt="Image d'un espace commentaire après avoir inséré des commentaires et vidé les champs de formulaire" title="Espace commentaire">
+                              <img src="../../assets/img/imgDynamismeJs_ZoomComplément.jpg" class="imgDynamisme_Exemple" :class="{'active':isActive}" @click="toggleClassActive" alt="Image d'un espace commentaire après avoir remplis les champs de formulaire" title="Espace commentaire">
+                              <img src="../../assets/img/imgDynamismeJs_ZoomComplément2.jpg" class="imgDynamisme_Example2" :class="{'active':isActive2}" @click="toggleClassActive2" alt="Image d'un espace commentaire après avoir inséré des commentaires et vidé les champs de formulaire" title="Espace commentaire">
                             </div>
       </div>
   </div>
