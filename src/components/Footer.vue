@@ -4,7 +4,7 @@
         <a href="https://github.com/Miguel-Hrc"><img src="../assets/img/logoGitHub.png" class="logo_Github" alt="image du logo GitHub, lien" title="Lien GitHub"></a>
     </div>
     <div>
-        <p class="Update">Dernière mise à jour le<time datetime="2023-08-19"> 19 aout 2023</time>.</p>
+        <p class="Update">Dernière mise à jour le<time datetime="2023-08-25"> 25 aout 2023</time>.</p>
     </div>
 </template>
 
