@@ -1,7 +1,7 @@
 # Depot-repertoire-Portfolio
 
 
-Prérequis : VS code
+Prérequis : VS code , Node.js
 
 Framework utilisées : Vue.js
 
